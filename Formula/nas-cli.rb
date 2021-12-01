@@ -1,5 +1,5 @@
 class NasCli < Formula
-  ersion "21.12.1"
+  version "21.12.1"
   desc "CLI application for managing my NAS."
   homepage "https://github.com/jeremiergz/nas-cli"
   url "https://github.com/jeremiergz/nas-cli/releases/download/#{version}/nas-cli-darwin-amd64"
