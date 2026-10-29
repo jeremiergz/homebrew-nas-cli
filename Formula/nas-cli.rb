@@ -1,5 +1,5 @@
 class NasCli < Formula
-  version "v26.10.2"
+  version "v26.10.3"
   desc "CLI application for managing my NAS."
   homepage "https://github.com/jeremiergz/nas-cli"
   head "https://github.com/jeremiergz/nas-cli.git"
@@ -8,11 +8,11 @@ class NasCli < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/jeremiergz/nas-cli/releases/download/#{version}/nas-cli-darwin-amd64"
-    sha256 "655d90870f042800085385670b5c9eb4f23dc567d221b700c1a3b260e26a233d"
+    sha256 "d9ed7f430e7a3a19feed05659e731b8291a53a874a07cc6dabf78871b28a8835"
   end
   if Hardware::CPU.arm?
     url "https://github.com/jeremiergz/nas-cli/releases/download/#{version}/nas-cli-darwin-arm64"
-    sha256 "c48a75cbe8479be1d1dd62604a03f880ce11fcdc860507df3c655f61cbf37ba3"
+    sha256 "308a757998844f9e813ee64a96152cead9abec85246df11b73bc67025fab7da1"
   end
 
   def install
